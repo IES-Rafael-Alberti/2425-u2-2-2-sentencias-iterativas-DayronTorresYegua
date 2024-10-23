@@ -18,8 +18,11 @@ def cuentaAtras(numero):
     """
     Función para mostrar la cuenta atras desde el numero introducido hasta cero
     """
-    for numeros in range(1, numero + 1, + 1,):
+    cuenta = []
+    for numeros in range(numero,0,-1):
         print(numeros, end=", ")
+        cuenta.append(numeros)
+    return cuenta
 
 def main():
 

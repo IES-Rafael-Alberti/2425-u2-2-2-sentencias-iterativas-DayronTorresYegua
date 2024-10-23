@@ -18,8 +18,11 @@ def listaImpares(numero):
     """
     Función para mostrar los numeros impares desde 1 hasta el numero introducido
     """
+    impares = []
     for numeros in range(1, numero + 1, 2):
         print(numeros, end=", ")
+        impares.append(numeros)
+    return impares
     
 def main():
 
